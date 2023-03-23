@@ -101,7 +101,7 @@ img {
   align-self: end;
 }
 
-/* Estilos Content */
+/* Styles Content */
 .title h1 {
   font-size: 3.75rem;
   font-weight: 700;
@@ -153,6 +153,41 @@ p {
 
 .informations p + p {
   margin-top: 30px;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: #b07dfb;
+  max-width: 27ch;
+}
+
+.quote,
+.attributes {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  align-self: start;
+}
+
+.quote p {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 35ch;
+}
+
+.attributes li {
+  font-family: Courier, monospace;
+  font-size: 1.125rem;
+  color: #fff;
+  padding: 15px;
+}
+
+.attributes li + li {
+  border-top: 2px solid #b07dfb;
 }
 
 /* Anúncios */
